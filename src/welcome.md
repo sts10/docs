@@ -8,18 +8,18 @@ Most of my Linux config files (as opposed to guides, which is what this site is 
 
 ## How this book is set up
 
-This is an [mdbook](https://github.com/rust-lang-nursery/mdBook). The book's source files live in [this GitHub repo](https://github.com/sts10/linux-notes-mdbook) -- if you wish to **contribute** to this book, please create an issue or pull request there!
+This is an [mdbook](https://github.com/rust-lang-nursery/mdBook). The book's source files live in [this GitHub repo](https://github.com/sts10/docs) -- if you wish to **contribute** to this book, please create an issue or pull request there!
 
 The GitHub repo of my Jekyll website/blog, which is one place where this book is published, is [here](https://github.com/sts10/sts10.github.io).
 
 ### Publishing the mdbook to the GitHub Page: 
 
-The `book.toml` file in [the mdbook source repo](https://github.com/sts10/linux-notes-mdbook) specifies that the mdbook builds to `../sts10.github.io/docs` (via the `mbdook build` command). So when you set this up you need those two directories in the same parent directory.
+The `book.toml` file in [the mdbook source repo](https://github.com/sts10/docs) specifies that the mdbook builds _locally_ to `../sts10.github.io/docs` (via the `mdbook build` command). So when you set this up you need those two directories in the same parent directory, likely `code/`.
 
-Once set up, you can run a publish: 
+Once set up, you can run a full "publish" procedure: 
 
 1. In the mdbook source repo, run `mdbook build`
-2. In the `sts10.github.io` Jekyll site repo, add and commit the Git changes and run `git push origin master`
+2. In the `sts10.github.io` Jekyll site repo, add and commit the Git changes and then run `git push origin master`
 
 ## Contact the Author
 
