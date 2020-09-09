@@ -2,7 +2,7 @@
 
 I'm not sure if you have to _uninstall_ any versions of Python before you do this, but I doubt it. You might want to checkout your bashrc to make sure there isn't any weird Python PATH stuff in there before we start.
 
-1. Install [Pyenv](https://github.com/pyenv/pyenv#installation), probably via the ["Basic GitHub Checkout" method](https://github.com/pyenv/pyenv#basic-github-checkout)
+1. Install [Pyenv](https://github.com/pyenv/pyenv#installation), probably via the ["Basic GitHub Checkout" method](https://github.com/pyenv/pyenv#basic-github-checkout). Could also try [new auto-installer](https://github.com/pyenv/pyenv-installer), which seems to make updating easier.
 2. Add the necessary stuff to your `.bashrc` (not `.bash_profile`)
 3. Restart terminal
 4. Maybe [install dependencies](https://github.com/pyenv/pyenv/wiki#suggested-build-environment)? (You may be good to go already.)
@@ -23,3 +23,13 @@ If you use Neovim + Deoplete, you probably want to run `pip3 install neovim` to 
 I also ran `pip2 install neovim` because Neovim's `:CheckHealth` told me too. 
 
 At this point, you may need to update Deoplete by running `:UpdateRemotePlugins` in Neovim. (Neovim's `:CheckHealth` is your friend here.)
+
+## 2020 updates / notes
+
+These two blog posts may offer better, newer solutions:
+- https://read.acloud.guru/my-python-setup-77c57a2fc4b6
+- https://jacobian.org/2019/nov/11/python-environment-2020/
+
+### pipx
+
+Specifically, if you've been using pip to install packages solely for use on the command-line (as opposed to active development using Python), like the `neovim` package, I'm hoping that [pipx](https://pypi.org/project/pipx/) may be a better, more self-contained solution. Though given that you need either Homebrew or pip to install pipx, it might not be as strong of a solution on Ubuntu as it is on MacOS.
