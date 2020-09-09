@@ -1,4 +1,6 @@
-# Installing Pyenv
+# Python 
+
+## Installing Pyenv
 
 I'm not sure if you have to _uninstall_ any versions of Python before you do this, but I doubt it. You might want to checkout your bashrc to make sure there isn't any weird Python PATH stuff in there before we start.
 
