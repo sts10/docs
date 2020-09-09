@@ -21,9 +21,12 @@ To update Deoplete, you may need to run `:UpdateRemotePlugins` in Neovim. Neovim
 
 ## rust-analyzer and LanguageServer
 
-To get some nice Rust features in Neovim, we're going to install [rust-analysis](https://rust-analyzer.github.io/manual.html). Below, I outline the [relatively simple install option that uses LanguageClient-neovim](https://rust-analyzer.github.io/manual.html#languageclient-neovim), though do check documentation for latest instructions.
+To get some nice Rust-specific, IDE-esque goodies in Neovim, we're going to install [rust-analysis](https://rust-analyzer.github.io/manual.html). Below, I outline the [relatively simple install option that uses LanguageClient-neovim](https://rust-analyzer.github.io/manual.html#languageclient-neovim), though do check documentation for latest instructions.
 
-1. [Install rust-analyzer Language Server Binary](https://rust-analyzer.github.io/manual.html#rust-analyzer-language-server-binary) by running the following.
+### 1. Install rust-analyzer Language Server Binary
+
+[Install rust-analyzer Language Server Binary](https://rust-analyzer.github.io/manual.html#rust-analyzer-language-server-binary) by running the following:
+
 ```bash
 git clone https://github.com/rust-analyzer/rust-analyzer.git && cd rust-analyzer
 cargo xtask install --server
@@ -31,7 +34,9 @@ cargo xtask install --server
 
 Think this installs the project's code to `~/.config/nvim/rust-analyzer/`. Executable is `rust-analyzer`, so can check that it's in your PATH by running `rust-analyzer --version`. Assume you'd upgrade by running `git pull && cargo xtask install --force --server`?
 
-2.  Configure by adding this to your vim/neovim config file (replacing the existing Rust-specific line if it exists):
+### 2. Configure by adding this to your vim/neovim config file...
+
+...replacing the existing Rust-specific line if it exists:
 
 ```vim
 let g:LanguageClient_serverCommands = {
@@ -39,7 +44,7 @@ let g:LanguageClient_serverCommands = {
 \ }
 ```
 
-3. Get the neovim LanguageClient installed
+### 3. Get the neovim LanguageClient installed
 
 ```vim
 Plug 'autozimu/LanguageClient-neovim', {
@@ -51,14 +56,17 @@ Plug 'autozimu/LanguageClient-neovim', {
 Plug 'junegunn/fzf'
 ```
 
-Then down below the `g:LanguageClient_serverCommands` bit:
+Then down below the `g:LanguageClient_serverCommands` bit, let's add some mappings. The [plugin's readme provides some ideas](https://github.com/autozimu/LanguageClient-neovim#quick-start), but as a minimum:
+
 ```vim
 nmap <F5> <Plug>(lcn-menu)
 ```
 
-4. Back in the terminal, run `nvim +PlugInstall +UpdateRemotePlugins +qa`
+### 4. Install stuff
 
-Think you should ne good-to go? F5 will give you some options for analysis. 
+Back in the terminal, run `nvim +PlugInstall +UpdateRemotePlugins +qa`
+
+Think you should now be good-to go? F5 will give you some options for analysis. 
 
 ### Notes on alternative approaches to making Neovim more of a Rust IDE
 
