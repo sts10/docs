@@ -1,8 +1,14 @@
 # PGP
 
 ## GNU Privacy Assistant 
-For a GPG GUI application, try `sudo apt install gpa` which installs a program called ["GNU Privacy Assistant"](https://help.ubuntu.com/community/GnuPrivacyGuardHowto#Graphical_Interfaces)
 
+For a GPG GUI application for Linux/Ubuntu for key management etc., try `sudo apt install gpa` which installs a program called ["GNU Privacy Assistant"](https://help.ubuntu.com/community/GnuPrivacyGuardHowto#Graphical_Interfaces)
+
+## GPG conf
+
+Let's make sure we've got good GPG settings. To do this, create a new file at `~/.gnupg/gpg.conf`. 
+
+I'd either copy [this guide's "hardened" config](https://github.com/drduh/YubiKey-Guide#harden-configuration) ([actual gpg.conf file](https://github.com/drduh/config/blob/master/gpg.conf)) or read through [this guide](https://riseup.net/en/security/message-security/openpgp/best-practices#putting-it-all-together), which points to [this Github repo](https://github.com/ioerror/duraconf/tree/master/configs/gnupg).
 
 ## Using a PGP private key from a Smartcard on Ubuntu
 
