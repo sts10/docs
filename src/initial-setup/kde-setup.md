@@ -22,3 +22,5 @@ If external monitors aren't being recognized by your laptop, try opening "NVIDIA
 If the external monitor appears in the layout, it may just be "disabled". If that's the case, go to the drop-down menu on the right side of the window labeled "Configuration" and try choosing "X screen 0".
 
 [An AskUbuntu question about this issue](https://askubuntu.com/questions/1083733/kubuntu-18-04-laptop-wont-recognize-external-monitor)
+
+More broadly, I think you need to use NVIDIA drivers (rather the FOSS ones) to use an external monitor with my Oryx Pro. I think.
