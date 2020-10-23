@@ -8,9 +8,9 @@
 6. Install Chromium via the POP app store if you like.
 7. Install Standard Notes app from [their site](https://standardnotes.org/getting-started?downloaded=linux)
 
-## Markdown editors
+## GUI Markdown editors
 
-While Neovim/Vim is fine for editing Markdown, if you want a different aesthetic, try [Typora](https://typora.io/) (with [my forked theme](https://github.com/sts10/Turing-CSS)) or [Apostrophe](https://somas.pages.gitlab.gnome.org/apostrophe/). 
+While Neovim/Vim is fine for editing Markdown, if you want a different aesthetic, try [Typora](https://typora.io/) (with [my forked theme](https://github.com/sts10/Turing-CSS)), [Apostrophe](https://somas.pages.gitlab.gnome.org/apostrophe/), or [Ghostwriter](https://wereturtle.github.io/ghostwriter/).
 
 ## Standard Notes .desktop file
 
