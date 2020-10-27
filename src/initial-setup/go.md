@@ -4,6 +4,10 @@
 
 If you just want to play Go on your desktop, an easy way to do it is in your browser through an online server like [OGS](https://online-go.com/). On iOS I like [SmartGo](https://apps.apple.com/us/app/smartgo-player/id314506629). See more Go resources at the bottom of this page. But the bulk of this page is dedicated to playing Go through a desktop app called Sabaki.
 
+## Katrain 
+
+For an all-in-one training software solution, I strongly recommend [Katrain](https://github.com/sanderland/katrain). You'll probably need pip3 to install it, and I've yet to get the audio to work on Ubuntu, but otherwise it's great.
+
 ## Sabaki, a desktop Go app for Linux
 
 A good desktop app that works for Linux is [Sabaki](https://sabaki.yichuanshen.de/) ([GitHub repo](https://github.com/SabakiHQ/Sabaki)). To install it, I went with the x64 AppImage, probably from [the GitHub Releases tab](https://github.com/SabakiHQ/Sabaki/releases)).
