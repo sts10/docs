@@ -27,13 +27,6 @@
   - [Images and Video](./initial-setup/images-and-video.md)
   - [Go and Sabaki](./initial-setup/go.md)
 - [Installing Ubuntu on my 2009 MacBook Pro](./installing-ubuntu-on-an-old-macbook-pro.md)
-- [Lubuntu](./lubuntu/index.md)
-  - [Switching to Lubuntu](./lubuntu/switching-to-lubuntu.md)
-  - [Improving Lubuntu](./lubuntu/improving-lubuntu.md)
-  - [Remapping Caps Lock to Control](./lubuntu/remapping-control-and-caps-lock-lubuntu.md)
-  - [Using Neovim](./lubuntu/using-neovim-in-lubuntu.md)
-  - [Using Rbenv](./lubuntu/rbenv-on-lubuntu.md)
-  - [Configuring OpenBox](./lubuntu/configuring-openbox-on-lubuntu.md)
 - [Security Apps and Tools](./security/index.md)
   - [Installing GNU Privacy Guard](./security/installing-gnu-privacy-guard-on-ubuntu.md)
   - [KeePassXC as a Snap](./security/keepassxc-from-snap.md)
@@ -45,6 +38,11 @@
   - [Customizing XFCE (Ubuntu base)](./other-des/customizing-appearance-of-xfce-ubuntu.md)
   - [Notes on i3](./other-des/notes-on-i3.md)
   - [Other DEs](./other-des/other-desktop-environments.md)
-
-
-
+- [E-reader Tips](./e-reader.md)
+- [Lubuntu](./lubuntu/index.md)
+  - [Switching to Lubuntu](./lubuntu/switching-to-lubuntu.md)
+  - [Improving Lubuntu](./lubuntu/improving-lubuntu.md)
+  - [Remapping Caps Lock to Control](./lubuntu/remapping-control-and-caps-lock-lubuntu.md)
+  - [Using Neovim](./lubuntu/using-neovim-in-lubuntu.md)
+  - [Using Rbenv](./lubuntu/rbenv-on-lubuntu.md)
+  - [Configuring OpenBox](./lubuntu/configuring-openbox-on-lubuntu.md)
