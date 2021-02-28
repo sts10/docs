@@ -26,6 +26,23 @@ I also ran `pip2 install neovim` because Neovim's `:CheckHealth` told me too.
 
 At this point, you may need to update Deoplete by running `:UpdateRemotePlugins` in Neovim. (Neovim's `:CheckHealth` is your friend here.)
 
+## Tips for writing Python in Vim/Neovim
+
+For a formatter, I like [Black](https://github.com/psf/black/blob/master/docs/editor_integration.md) so far. All you need to integrate it into Vim is to install the Vim plugin:
+
+```vim
+Plug 'psf/black', { 'branch': 'stable' }
+```
+
+And I'll probably add this to my vimrc to have it run on save: 
+
+```vim
+autocmd BufWritePre *.py execute ':Black'
+```
+
+Note that I did **not** need to run any pip install commands to get it working.
+
+
 ## 2020 updates / notes
 
 These two blog posts may offer better, newer solutions:
