@@ -26,8 +26,9 @@ I also ran `pip2 install neovim` because Neovim's `:CheckHealth` told me too.
 
 At this point, you may need to update Deoplete by running `:UpdateRemotePlugins` in Neovim. (Neovim's `:CheckHealth` is your friend here.)
 
-## Tips for writing Python in Vim/Neovim
+## Tips for _writing_ Python in Vim/Neovim
 
+### Formatter
 For a formatter, I like [Black](https://github.com/psf/black/blob/master/docs/editor_integration.md) so far. All you need to integrate it into Vim is to install the Vim plugin:
 
 ```vim
@@ -42,6 +43,15 @@ autocmd BufWritePre *.py execute ':Black'
 
 Note that I did **not** need to run any pip install commands to get it working.
 
+### Syntax and style checker
+
+For checking Python syntax and style you could try flake8 and [its corresponding Vim plugin](https://github.com/nvie/vim-flake8).
+
+#### Flake8 installation
+1. `pip install flake8` ([reference](https://pypi.org/project/flake8/))
+2. In your Vim config file: `Plug 'nvie/vim-flake8', { 'for': 'python' }`
+
+To use in Vim, I run `:call flake8#Flake8()` though obviously could be mapped to something.
 
 ## 2020 updates / notes
 
