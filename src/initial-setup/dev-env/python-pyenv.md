@@ -45,19 +45,18 @@ Note that I did **not** need to run any pip install commands to get it working.
 
 ### Syntax and style checker
 
-For checking Python syntax and style you could try flake8 and [its corresponding Vim plugin](https://github.com/nvie/vim-flake8).
+For checking Python syntax and style you could try [flake8](https://pypi.org/project/flake8/).
 
-#### Flake8 installation
-1. `pip install flake8` ([reference](https://pypi.org/project/flake8/))
-2. In your Vim config file: `Plug 'nvie/vim-flake8', { 'for': 'python' }`
+After installing with `pip install flake8` ([reference](https://pypi.org/project/flake8/)), you can run it on individual python files from the command line with `flake8 <filename>.py`, which will print out recommendations to the terminal. 
 
-To use in Vim, I run `:call flake8#Flake8()` though obviously could be mapped to something.
+It also has a [corresponding Vim plugin](https://github.com/nvie/vim-flake8), though after installing it the default mapping, `<F7>`, didn't work, so I had to run `:call flake8#Flake8()`. Obviously I could try mapping it to a key myself.
 
 ## 2020 updates / notes
 
-These two blog posts may offer better, newer solutions:
-- https://read.acloud.guru/my-python-setup-77c57a2fc4b6
-- https://jacobian.org/2019/nov/11/python-environment-2020/
+These two blog posts may offer better, newer solutions for Python environment set ups:
+
+- [https://read.acloud.guru/my-python-setup-77c57a2fc4b6](https://read.acloud.guru/my-python-setup-77c57a2fc4b6)
+- [https://jacobian.org/2019/nov/11/python-environment-2020/](https://jacobian.org/2019/nov/11/python-environment-2020/)
 
 ### pipx
 
