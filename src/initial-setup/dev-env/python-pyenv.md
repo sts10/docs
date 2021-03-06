@@ -20,9 +20,16 @@ To install [autosub](https://github.com/agermanidis/autosub) (which I think nece
 
 Now that we've got a nice little Python and Pip environment set up, let's make sure Deoplete is using it.
 
-If you use Neovim + Deoplete, you probably want to run `pip3 install neovim` to ensure Deoplete works smoothly (see [Deoplete's requirements](https://github.com/Shougo/deoplete.nvim#requirements)).
+If you use Neovim + Deoplete, you probably want to run `pip3 install neovim` or `pip3 install pynvim` to ensure Deoplete works smoothly (see [Deoplete's requirements](https://github.com/Shougo/deoplete.nvim#requirements)).
 
-I also ran `pip2 install neovim` because Neovim's `:CheckHealth` told me too. 
+Another tip to try is to explicitedly tell Neovim which Python3 to use. Do this by including this line in your Neovim config file: 
+
+```vim
+let g:python3_host_prog = expand('~/.pyenv/shims/python')
+```
+
+I don't think you need to provide Neovim with a version of Python2 these days to make Neovim do its job well.
+<!-- I also ran `pip2 install neovim` because Neovim's `:CheckHealth` told me too. --> 
 
 At this point, you may need to update Deoplete by running `:UpdateRemotePlugins` in Neovim. (Neovim's `:CheckHealth` is your friend here.)
 
