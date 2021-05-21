@@ -16,3 +16,9 @@ function rbenv_upgrade {
   cd ~
 }
 ```
+
+## Alternative Ruby version managers
+
+[Frum](https://github.com/TaKO8Ki/frum) is a new Ruby version manager written in Rust.
+
+[RVM](https://rvm.io/) is another, more well-known option.
