@@ -24,6 +24,7 @@
   - [Redshift](./initial-setup/redshift.md)
   - [Battery and TLP](./initial-setup/battery-management.md)
   - [rsync](./initial-setup/rsync.md)
+  - [restic](./initial-setup/restic.md)
   - [Images and Video](./initial-setup/images-and-video.md)
   - [Go and Sabaki](./initial-setup/go.md)
 - [Installing Ubuntu on my 2009 MacBook Pro](./installing-ubuntu-on-an-old-macbook-pro.md)
