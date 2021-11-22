@@ -3,10 +3,22 @@
 1. Installed Wire desktop via [these instructions](https://medium.com/@wireapp/a-step-forward-for-wire-for-linux-52f0538cac15)
 2. [Download and install Signal](https://signal.org/download/)
 <!-- 3. Install Ricochet from [its website](https://ricochet.im/) -- not sure the procude here. You can also look in your distro's GUI app store, though check version. -->
-4. Install Tor Browser (forget how exactly I did this-- maybe Tor Browser Launcher? From POP store?)
-5. To install OnionShare, I followed the "Ubuntu" instructions on their [download page](https://onionshare.org/#downloads) and added their PPA. (The version in the POP store was 0.9 -- too old for me.) 
-6. Install Chromium via the POP app store if you like.
-7. Install Standard Notes app from [their site](https://standardnotes.org/getting-started?downloaded=linux)
+3. Install Tor Browser (forget how exactly I did this-- maybe Tor Browser Launcher? From POP store?)
+4. Install Chromium via the POP app store if you like.
+5. Install Standard Notes app from [their site](https://standardnotes.org/getting-started?downloaded=linux)
+
+## Onionshare (consider the CLI)
+
+If [OnionShare](https://onionshare.org/)'s GUI installations are throwing errors, try [installing and using the CLI](https://docs.onionshare.org/2.4/en/advanced.html#cli). I'd recommend installing it with [pipx](https://pypa.github.io/pipx/installation/) rather than pip. Here's an example:
+
+```bash
+# Install pipx (see: https://pypa.github.io/pipx/installation/)
+python3 -m pip install --user pipx
+python3 -m pipx ensurepath
+# Install onionshare-cli
+pipx install onionshare-cli
+onionshare-cli --help
+```
 
 ## GUI Markdown editors
 
