@@ -82,7 +82,7 @@ ls ~/Documents_restored
 
 Save the text below in a new file as something like `~/restic-excludes.txt`. 
 
-You can use it like: `restic -r '/media/sschlinkert/external_harddrive/restic-repo/' --verbose backup --exclude-caches --exclude-file=/home/sschlinkert/restic-excludes.txt /home/sschlinkert/`
+You can use it like: `restic -r '/media/$USER/external_harddrive/restic-repo/' --verbose backup --exclude-caches --exclude-file=/home/$USER/restic-excludes.txt /home/sschlinkert/`
 
 ```text
 /home/$USER/.bundle
