@@ -78,6 +78,32 @@ This'll take a while, but when it's done our data should be restored to the loca
 ls ~/Documents_restored
 ```
 
+## Decent list of excludes for a Restic backup of a home directory on Linux
+
+Save the text below in a new file as something like `~/restic-excludes.txt`. 
+
+You can use it like: `restic -r '/media/sschlinkert/external_harddrive/restic-repo/' --verbose backup --exclude-caches --exclude-file=/home/sschlinkert/restic-excludes.txt /home/sschlinkert/`
+
+```text
+/home/$USER/.bundle
+/home/$USER/.cache
+/home/$USER/.cargo
+/home/$USER/.gem
+/home/$USER/.katrain
+/home/$USER/.local/share/Steam
+/home/$USER/.local/share/Trash
+/home/$USER/.mozilla
+/home/$USER/.npm
+/home/$USER/.pyenv
+/home/$USER/.rbenv
+/home/$USER/.rustup
+/home/$USER/.zoom
+/home/$USER/go
+/home/$USER/snap
+```
+
+---
+
 ## A simpler approach for a small directory
 
 I've got a small directory of very important documents. This directory is included in my restic snapshots, but I also want to put it in other locations as redundancies. One such location is Dropbox. However, I want it to encrypt it before I upload it to Dropbox.
