@@ -1,6 +1,6 @@
 # A curated list of command-line tools written in Rust
 
-Note that I have not tried all of these personally, and **cannot and do not vouch for all of the tools listed here**. Some may have been abandoned. Investigate before installing/using.
+Note that I have not tried all of these personally, and **cannot and do not vouch for all of the tools listed here**. In most cases, the descriptions here are copied from their code repos. Some may have been abandoned. Investigate before installing/using.
 
 The ones I use regularly include: bat, dust, exa, fd, hyperfine, miniserve, ripgrep, zoxide and cargo-wipe.
 
@@ -15,7 +15,7 @@ The ones I use regularly include: bat, dust, exa, fd, hyperfine, miniserve, ripg
 - [exa](https://the.exa.website/): "A modern version of `ls`
 - [fd](https://github.com/sharkdp/fd): "A simple, fast and user-friendly alternative to `find`"
 - [frum](https://github.com/TaKO8Ki/frum) - A little bit fast and modern Ruby version manager written in Rust
-- [gitui](https://github.com/extrawurst/gitui): Blazing fast terminal-ui for git written in Rust:
+- [gitui](https://github.com/extrawurst/gitui): Blazing fast terminal-ui for git written in Rust.
 - [htmlq](https://github.com/mgdm/htmlq): Like jq, but for HTML. Uses CSS selectors to extract bits of content from HTML files.
 - [hyperfine](https://github.com/sharkdp/hyperfine): Command-line benchmarking tool
 - [jql](https://github.com/yamafaktory/jql): A JSON Query Language CLI tool
@@ -30,7 +30,7 @@ The ones I use regularly include: bat, dust, exa, fd, hyperfine, miniserve, ripg
 - [qsv](https://github.com/jqnatividad/qsv): CSVs sliced, diced & analyzed. (A fork of xsv)
 - [rip](https://github.com/nivekuil/rip): A safe and ergonomic alternative to `rm`
 - [ripgrep](https://github.com/BurntSushi/ripgrep): a faster replacement for GNU’s `grep` command. This tool is very good.
-- [sd](https://github.com/chmln/sd): Intuitive find & replace CLI (`sed` alternative):
+- [sd](https://github.com/chmln/sd): Intuitive find & replace CLI (`sed` alternative).
 - [tealdear](https://github.com/dbrgn/tealdeer): A very fast implementation of `tldr` in Rust. 
 - [tin-summer](https://github.com/vmchale/tin-summer): Find build artifacts that are taking up disk space 
 - [tokei](https://github.com/XAMPPRocky/tokei): Count your code, quickly. 
