@@ -39,6 +39,7 @@
   - [Customizing XFCE (Ubuntu base)](./other-des/customizing-appearance-of-xfce-ubuntu.md)
   - [Notes on i3](./other-des/notes-on-i3.md)
   - [Other DEs](./other-des/other-desktop-environments.md)
+- [Rust Command Line Tools](./rust-command-line-tools.md)
 - [E-reader Tips](./e-reader.md)
 - [Lubuntu](./lubuntu/index.md)
   - [Switching to Lubuntu](./lubuntu/switching-to-lubuntu.md)
