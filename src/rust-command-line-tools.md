@@ -64,6 +64,25 @@ The ones I use regularly include: bat, dust, exa, fd, hyperfine, miniserve, ripg
 - ["Awesome Rust"](https://github.com/rust-unofficial/awesome-rust)
 - [Awesome Alternatives in Rust](https://github.com/TaKO8Ki/awesome-alternatives-in-rust)
 
+## Tips
+
+### `exa` aliases I use in my `~/.bashrc`
+
+```bash
+if hash exa 2>/dev/null; then
+    alias ls='exa'
+    alias l='exa -l --all --group-directories-first --git'
+    alias ll='exa -l --all --all --group-directories-first --git'
+    alias lt='exa -T --git-ignore --level=2 --group-directories-first'
+    alias llt='exa -lT --git-ignore --level=2 --group-directories-first'
+    alias lT='exa -T --git-ignore --level=4 --group-directories-first'
+else
+    alias l='ls -lah'
+    alias ll='ls -alF'
+    alias la='ls -A'
+fi
+```
+
 ## Know a good one that I don't have listed here?
 
 Let me know on [Mastodon](https://octodon.social/@schlink) or [Twitter](https://twitter.com/sts10/).
