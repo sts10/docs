@@ -1,5 +1,11 @@
 ## Using Pidgin with a Google Account, and Setting Up OTR
 
+Note that I would no longer advise using any the tools described here. Just use Signal! 
+
+That said, I wrote out these instructions at some point so I'll leave them here for now.
+
+## Pidgin
+
 Pidgin comes installed with Ubuntu 16.04. To add my existing Google Account, I followed the steps outlined in [this Stack Overflow answer](https://stackoverflow.com/questions/28681341/how-to-add-google-talk-hangouts-to-pidgin-chat-client/33898893#33898893).
 
 To summarize: 
