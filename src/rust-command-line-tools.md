@@ -1,5 +1,7 @@
 # A curated list of command-line tools written in Rust
 
+(This list is also [available on GitHub](https://gist.github.com/sts10/daadbc2f403bdffad1b6d33aff016c0a), where it'll likely be updated more regularly.)
+
 Note that I have not tried all of these personally, and **cannot and do not vouch for all of the tools listed here**. In most cases, the descriptions here are copied from their code repos. Some may have been abandoned. Investigate before installing/using.
 
 The ones I use regularly include: bat, dust, exa, fd, hyperfine, miniserve, ripgrep, zoxide and cargo-wipe.
