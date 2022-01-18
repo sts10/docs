@@ -1,11 +1,11 @@
 # Other Apps to Install
 
-1. Installed Wire desktop via [these instructions](https://medium.com/@wireapp/a-step-forward-for-wire-for-linux-52f0538cac15)
-2. [Download and install Signal](https://signal.org/download/)
-<!-- 3. Install Ricochet from [its website](https://ricochet.im/) -- not sure the procude here. You can also look in your distro's GUI app store, though check version. -->
-3. Install Tor Browser (forget how exactly I did this-- maybe Tor Browser Launcher? From POP store?)
-4. Install Chromium via the POP app store if you like.
-5. Install Standard Notes app from [their site](https://standardnotes.org/getting-started?downloaded=linux)
+- [Download and install Signal](https://signal.org/download/)
+- Install Tor Browser (forget how exactly I did this-- maybe Tor Browser Launcher? From POP store?)
+- Install Chromium via the POP app store if you like.
+- Install Standard Notes app from [their site](https://standardnotes.org/getting-started?downloaded=linux)
+- Consider installing Cwtch.im
+- Install Wire desktop via [these instructions](https://medium.com/@wireapp/a-step-forward-for-wire-for-linux-52f0538cac15)
 
 ## Onionshare (consider the CLI)
 
@@ -20,9 +20,17 @@ pipx install onionshare-cli
 onionshare-cli --help
 ```
 
+### Upgrading `onionshare-cli`
+
+If using pipx, try `pipx upgrade onionshare-cli`
+
+If using regular `pip3`, try something like `pip3 install --user --upgrade onionshare-cli`
+
 ## GUI Markdown editors
 
-While Neovim/Vim is fine for editing Markdown, if you want a different aesthetic, try [Typora](https://typora.io/) (with [my forked theme](https://github.com/sts10/Turing-CSS)), [Apostrophe](https://somas.pages.gitlab.gnome.org/apostrophe/), or [Ghostwriter](https://wereturtle.github.io/ghostwriter/).
+While Neovim/Vim is fine for editing Markdown, if you want a different aesthetic, try [Typora](https://typora.io/) (with [my forked theme](https://github.com/sts10/Turing-CSS)), [Apostrophe](https://somas.pages.gitlab.gnome.org/apostrophe/), or [Ghostwriter](https://wereturtle.github.io/ghostwriter/). 
+
+[Manuskript](http://www.theologeek.ch/manuskript/) seems like a decent novel-writing app for Linux, but there are others.
 
 ## Standard Notes .desktop file
 
