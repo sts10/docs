@@ -6,7 +6,7 @@ If you just want to play Go on your desktop, an easy way to do it is in your bro
 
 ## Katrain 
 
-For an all-in-one training software solution, I strongly recommend [Katrain](https://github.com/sanderland/katrain). You'll probably need pip3 to install it, and I've yet to get the audio to work on Ubuntu, but otherwise it's great.
+For an all-in-one training software solution, I strongly recommend [Katrain](https://github.com/sanderland/katrain). You'll probably need pipx or pip3 to install it, and I've yet to get the audio to work on Ubuntu, but otherwise it's great.
 
 ## Sabaki, a desktop Go app for Linux
 

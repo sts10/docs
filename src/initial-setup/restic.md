@@ -78,7 +78,7 @@ This'll take a while, but when it's done our data should be restored to the loca
 ls ~/Documents_restored
 ```
 
-## Decent list of excludes for a Restic backup of a home directory on Linux
+## Decent list of excludes for a Restic backup of a home directory on Linux (Made in Dec 2021)
 
 Save the text below in a new file as something like `~/restic-excludes.txt`. 
 
@@ -154,6 +154,10 @@ tar -czv important_documents/ | age -p > important_documents.tar.gz.age
 # decrypt and extract
 age -d important_documents.tar.gz.age | tar -xzv
 ```
+
+### Couldn't we just make this a shell script?
+
+I attempted to wed all these commands into a handy shell script called [Bottle](https://github.com/sts10/bottle), if you want to try that.
 
 ### Using symmetrical GPG encryption
 

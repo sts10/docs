@@ -2,9 +2,11 @@
 
 I installed Syncthing via the instructions at the top of [this page](https://apt.syncthing.net/)
 
-I then setup Syncthing, including my KeePass database. 
+I then setup Syncthing, mainly to keep my KeePass database in-sync.
 
 ## Useful bash functions
+
+Requires that tmux be installed!
 
 ```bash
 # Via: https://sts10.github.io/2018/11/27/syncthing-and-tmux.html

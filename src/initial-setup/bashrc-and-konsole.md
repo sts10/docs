@@ -10,6 +10,10 @@ Here's a one-line bash command to copy down my Linux `.bashrc` from GitHub:
 curl -o ~/.bashrc https://raw.githubusercontent.com/sts10/linux-config/master/bash/bashrc
 ```
 
+## Starship.rs
+
+Consider making configuring your **prompt** easier by using [Starship](https://starship.rs/).
+
 ## Konsole color profile
 
 If you're using KDE, the default terminal emulator, [Konsole](https://konsole.kde.org/), is pretty good. To get my colors -- based on my [Pink Moon Vim colorscheme](https://github.com/sts10/vim-pink-moon) -- and profile, run the following two lines:
