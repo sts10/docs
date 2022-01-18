@@ -3,7 +3,7 @@
 - [Download and install Signal](https://signal.org/download/)
 - Install Tor Browser (forget how exactly I did this-- maybe Tor Browser Launcher? From POP store?)
 - Install Chromium via the POP app store if you like.
-- Install Standard Notes app from [their site](https://standardnotes.org/getting-started?downloaded=linux)
+<!-- - Install Standard Notes app from [their site](https://standardnotes.org/getting-started?downloaded=linux) -->
 - Consider installing Cwtch.im
 - Install Wire desktop via [these instructions](https://medium.com/@wireapp/a-step-forward-for-wire-for-linux-52f0538cac15)
 

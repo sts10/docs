@@ -8,7 +8,7 @@ Know that, sometimes in order to _update_ applications that you install via Snap
 
 ## Generic upgrade line
 
-`sudo apt-get update && sudo apt-get dist-upgrade` is a good way to upgrade everything.
+`sudo apt update && sudo apt dist-upgrade` is a good way to upgrade everything. Can do `sudo apt update && sudo apt dist-upgrade -y` to auto-accept upgrades.
 
 ## How to install from an AppImage if it's not going easily
 
