@@ -6,8 +6,9 @@ I have not vetted or reviewed any of these tools. I also do not condone using an
 - [OnionShare](https://onionshare.org/) -- Offers both a GUI and [command-line tool](https://docs.onionshare.org/2.4/en/advanced.html#cli) (would recommend using [pipx](https://pypa.github.io/pipx/installation/) to install the CLI: `pipx install onionshare-cli`).
 
 ## CLI tools
-- [croc](https://github.com/schollz/croc) (written in Go, looks good)
 - [Magic Wormhole](https://github.com/magic-wormhole/magic-wormhole) 
+- [croc](https://github.com/schollz/croc) -- written in Go, looks good
+- [qrcp](https://github.com/claudiodangelis/qrcp/) -- for transferring to and from a mobile device.
 
 ## Uploading services
 - [Bitwarden Send](https://bitwarden.com/products/send/) 
