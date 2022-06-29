@@ -90,6 +90,7 @@ You can use it like: `restic -r '/media/$USER/external_harddrive/restic-repo/' -
 /home/$USER/.cargo
 /home/$USER/.gem
 /home/$USER/.katrain
+/home/$USER/.local/share/flatpak
 /home/$USER/.local/share/Steam
 /home/$USER/.local/share/Trash
 /home/$USER/.mozilla
@@ -97,6 +98,7 @@ You can use it like: `restic -r '/media/$USER/external_harddrive/restic-repo/' -
 /home/$USER/.pyenv
 /home/$USER/.rbenv
 /home/$USER/.rustup
+/home/$USER/.var/app/org.chromium.Chromium/cache/
 /home/$USER/.zoom
 /home/$USER/go
 /home/$USER/snap
