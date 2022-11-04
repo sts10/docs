@@ -18,6 +18,7 @@ The ones I use regularly include: bat, dust, exa, fd, hyperfine, miniserve, ripg
 - [dog](https://github.com/ogham/dog): A command-line DNS client
 - [dua](https://github.com/Byron/dua-cli): "View disk space usage and delete unwanted data, fast."
 - [dust](https://github.com/bootandy/dust): "a more intuitive version of `du` in Rust"
+- [eva](https://github.com/nerdypepper/eva): "a calculator REPL, similar to bc(1)"
 - [exa](https://the.exa.website/): "A modern version of `ls`"
 - [fclones](https://github.com/pkolaczk/fclones): an "efficient duplicate file finder" 
 - [fd](https://github.com/sharkdp/fd): "A simple, fast and user-friendly alternative to `find`"
@@ -35,8 +36,9 @@ The ones I use regularly include: bat, dust, exa, fd, hyperfine, miniserve, ripg
 - [macchina](https://github.com/macchina-cli/macchina): Fast, minimal and customizable system information frontend.
 - [mdBook](https://github.com/rust-lang/mdBook): Create books from markdown files. Like Gitbook but implemented in Rust 
 - [mdcat](https://github.com/lunaryorn/mdcat): Fancy `cat` for Markdown
-- [miniserve](https://github.com/svenstaro/miniserve) is “a CLI tool to serve files and dirs over HTTP”. I use this as a replacement for `python -m SimpleHTTPServer`, or whatever the latest version of that command is.
+- [miniserve](https://github.com/svenstaro/miniserve) is "a CLI tool to serve files and dirs over HTTP". I use this as a replacement for `python -m SimpleHTTPServer`, or whatever the latest version of that command is.
 - [monolith](https://github.com/y2z/monolith): Save complete web pages as a single HTML file 
+- [ouch](https://github.com/ouch-org/ouch): "Painless compression and decompression for your terminal"
 - [pastel](https://github.com/sharkdp/pastel): A command-line tool to generate, analyze, convert and manipulate colors.
 - [procs](https://github.com/dalance/procs): A modern replacement for `ps` written in Rust
 - [qsv](https://github.com/jqnatividad/qsv): CSVs sliced, diced & analyzed. (A fork of `xsv`)
@@ -112,6 +114,3 @@ fi
 ## Know a good one that I don't have listed here?
 
 Let me know in the comments, a PR, on [Mastodon](https://octodon.social/@schlink) or [Twitter](https://twitter.com/sts10/).
-## Know a good one that I don't have listed here?
-
-Let me know on [Mastodon](https://octodon.social/@schlink) or [Twitter](https://twitter.com/sts10/).
