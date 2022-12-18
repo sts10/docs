@@ -113,4 +113,4 @@ fi
 
 ## Know a good one that I don't have listed here?
 
-Let me know in the comments, a PR, on [Mastodon](https://octodon.social/@schlink) or [Twitter](https://twitter.com/sts10/).
+Let me know in the comments, a PR, on [Mastodon](https://hachyderm.io/@schlink) or [Twitter](https://twitter.com/sts10/).
