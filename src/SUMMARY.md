@@ -17,6 +17,7 @@
     - [Python and pyenv](./initial-setup/dev-env/python-pyenv.md)
     - [Ruby and rbenv](./initial-setup/dev-env/ruby-and-rbenv.md)
     - [Rust](./initial-setup/dev-env/rust.md)
+    - [Golang](./initial-setup/dev-env/golang.md)
     - [GitHub and ssh keys](./initial-setup/dev-env/github-and-ssh.md)
     - [GitHub blog with Jekyll](./initial-setup/dev-env/jekyll.md)
   - [GNOME Setup](./initial-setup/gnome-setup.md)
