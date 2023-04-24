@@ -52,11 +52,13 @@ Note that I did **not** need to run any pip install commands to get it working.
 
 ### Syntax and style checker
 
-For checking Python syntax and style you could try [flake8](https://pypi.org/project/flake8/).
+For checking Python syntax and style you could try [flake8](https://pypi.org/project/flake8/). 
 
 After installing with `pip install flake8` ([reference](https://pypi.org/project/flake8/)), you can run it on individual python files from the command line with `flake8 <filename>.py`, which will print out recommendations to the terminal. 
 
 It also has a [corresponding Vim plugin](https://github.com/nvie/vim-flake8), though after installing it the default mapping, `<F7>`, didn't work, so I had to run `:call flake8#Flake8()`. Obviously I could try mapping it to a key myself.
+
+2023 Update: Try [ruff](https://github.com/charliermarsh/ruff) and [these docs on Vim & Neovim integration](https://beta.ruff.rs/docs/editor-integrations/#language-server-protocol-unofficial)!
 
 ## 2020 updates / notes
 
