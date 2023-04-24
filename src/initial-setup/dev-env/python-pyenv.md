@@ -68,3 +68,7 @@ These two blog posts may offer better, newer solutions for Python environment se
 ### pipx
 
 Specifically, if you've been using pip to install packages solely for use on the command-line (as opposed to active development using Python), like the `neovim` package, I'm hoping that [pipx](https://pypi.org/project/pipx/) may be a better, more self-contained solution. Though given that you need either Homebrew or pip to install pipx, it might not be as strong of a solution on Ubuntu as it is on MacOS.
+
+## 2023 updates
+
+[Rye](https://github.com/mitsuhiko/rye) looks cool?
