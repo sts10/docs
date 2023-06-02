@@ -10,13 +10,13 @@ I have not vetted or reviewed any of these tools. I also do not condone using an
 - [croc](https://github.com/schollz/croc) -- written in Go, looks good
 - [qrcp](https://github.com/claudiodangelis/qrcp/) -- for transferring to and from a mobile device.
 
-## Uploading services
+## Cloud-based file transferring services
 - [Bitwarden Send](https://bitwarden.com/products/send/) 
 - [Standard Notes FileSend](https://filesend.standardnotes.org/) 
 <!-- - https://send.tresorit.com/ -->
 
 ## Also helpful
-- [Danger Zone](https://github.com/firstlookmedia/dangerzone) cleans received office files
+- [Danger Zone](https://github.com/freedomofpress/dangerzone) takes potentially dangerous PDFs, office documents, or images and converts them to safe PDFs
 - [age](https://github.com/FiloSottile/age) is a new PGP alternative for encrypting/decrypting files 
 - [Cwtch](https://cwtch.im/) now supports file-sharing, but the tool is, overall, still in beta as of this writing.
 
