@@ -73,4 +73,4 @@ Specifically, if you've been using pip to install packages solely for use on the
 
 ## 2023 updates
 
-[Rye](https://github.com/mitsuhiko/rye) looks cool?
+[Rye](https://github.com/mitsuhiko/rye) looks cool? There's also ["Python launcher"](https://github.com/brettcannon/python-launcher)?
