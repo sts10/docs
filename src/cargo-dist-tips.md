@@ -38,10 +38,11 @@ Basically, now for every PR to your project, GitHub will run part of this `cargo
 1. Get your main branch into a good, working place. Commit changes, at least locally.
 2. Run `cargo test`, etc. as well as the tests described above (`cargo dist build` and `cargo dist plan`).
 3. Increment that `version` in `Cargo.toml` to a new highest version. Let's say we're going from `v0.3.8` to `v0.3.9`.
-4. Run another `cargo build` to make sure `Cargo.lock` is up-to-date.
-5. Commit changes -- message can be something like "Release v0.3.9" -- and `git push origin main`
-6. Create a git tag for this release. Match the version number to the one in `Cargo.toml`. So in our case: `git tag v0.3.9`. (Obviously make sure this tag has not been seen by git or GitHub before.)
-7. Push your tags to GitHub: `git push --tags`
+4. Optional: Add release notes to a file called `CHANGELOG.md`, under a heading like `## Version 0.3.9`, which Cargo Dist will auto-detect.
+5. Run another `cargo build` to make sure `Cargo.lock` is up-to-date.
+6. Commit changes -- message can be something like "Release v0.3.9" -- and `git push origin main`
+7. Create a git tag for this release. Match the version number to the one in `Cargo.toml`. So in our case: `git tag v0.3.9`. (Obviously make sure this tag has not been seen by git or GitHub before.)
+8. Push your tags to GitHub: `git push --tags`
 
 > At this point you're done! The generated CI script should pick up the ball and create a Github Release with all your builds over the next few minutes!
 
