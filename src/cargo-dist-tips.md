@@ -8,11 +8,12 @@ Some notes on cargo-dist v0.4.1; following [this documentation](https://opensour
 
 1. Make sure the `repository` variable is specified in your `Cargo.toml`. It takes the URL of your GitHub repo (`repository = "https://github.com/sts10/password-strength-checker"`). You should probably also specifiy a `license` or `license-file` (but not both), and the location of the `readme` file. (See here for more things to specify: [https://doc.rust-lang.org/cargo/reference/manifest.html](https://doc.rust-lang.org/cargo/reference/manifest.html).)
 2. Install or update cargo-dist with something like `cargo install cargo-dist`
+3. Run a `git push --tags` to push any and all local tags you've created up to GitHub. If any local tags are rejected for already existing on GitHub, I recommend you just delete the local tags with `git tag --delete <tag_name>`.
 
 ## Initializing cargo dist
 
-1. In your Rust project's directory, run `cargo dist init`. This launches a lil interactive install guide. The defaults are good, so just type `y` a bunch. Be sure to enable the GitHub CI; and you probably want the SHELL installer, which I'm not sure is enabled by default?.
-,. This will create a new file at `.github/workflows/release.yml`, which tells GitHub what magic to do later, and edit your Cargo.toml. Don't worry about it.
+1. In your Rust project's directory, run `cargo dist init`. This launches a lil interactive install guide. Be sure to enable the GitHub CI; and you probably want the SHELL installer, which I'm not sure is enabled by default?
+2. This will create a new file at `.github/workflows/release.yml`, which tells GitHub what magic to do later, and edit your Cargo.toml. Don't worry about it.
 3. Commit these changes (`git add . && git commit -m "init cargo dist"`)
 
 A note on that nifty `cargo dist init` command from the official cargo-dist docs:
