@@ -11,7 +11,7 @@ Some notes on cargo-dist v0.4.1; following [this documentation](https://opensour
 
 ## Initializing cargo dist
 
-1. In your Rust project's directory, run `cargo dist init`. This launches a lil interactive install guide. The defaults are good, so just type `y` a bunch. Be sure to enable the GitHub CI. 
+1. In your Rust project's directory, run `cargo dist init`. This launches a lil interactive install guide. The defaults are good, so just type `y` a bunch. Be sure to enable the GitHub CI. Alternatively, you can just do `cargo dist init --yes` to use the defaults, which seem good for my purposes.
 2. This will create a new file at `.github/workflows/release.yml`, which tells GitHub what magic to do later, and edit your Cargo.toml. Don't worry about it.
 3. Commit these changes (`git add . && git commit -m "init cargo dist"`)
 
