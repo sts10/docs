@@ -29,6 +29,7 @@
   - [Images and Video](./initial-setup/images-and-video.md)
   - [Go and Sabaki](./initial-setup/go.md)
 - [Rust Command Line Tools](./rust-command-line-tools.md)
+- [Cargo-dist tips](./cargo-dist-tips.md)
 - [Installing Ubuntu on my 2009 MacBook Pro](./installing-ubuntu-on-an-old-macbook-pro.md)
 - [Security Apps and Tools](./security/index.md)
   - [Tools for moving files between computers](./security/moving-files.md)
