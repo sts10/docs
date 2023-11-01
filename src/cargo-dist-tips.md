@@ -48,3 +48,21 @@ Basically, now for every PR to your project, GitHub will run part of this `cargo
 > At this point you're done! The generated CI script should pick up the ball and create a Github Release with all your builds over the next few minutes!
 
 (FYI This is the point where you'd run `cargo publish` to push to crates.io, if your project is hosted there.)
+
+## Upgrading cargo-dist itself
+
+If and when you upgrade cargo-dist (using `carog install cargo-dist`), you'll need to take some steps within the project that you use cargo-dist to distribute. 
+
+1. In your project's `Cargo.toml` file, edit the `cargo-dist-version` variable to match the version of cargo-dist you now have installed on your system.
+2. Re-run `cargo dist init`. (You may also need to run `cargo dist generate` afterward for changes to take affect.)
+3. Try `cargo dist built` and `cargo dist plan`, as usual, to see if everything is in working order.
+
+## Suggested Markdown to add to README of project that uses cargo-dist
+
+```markdown
+## For developers: How to create a release
+
+This project uses [cargo-dist](https://opensource.axo.dev/cargo-dist/) to create releases. 
+
+Some of [my personal docs are here](https://sts10.github.io/docs/cargo-dist-tips.html); but basically, `cargo install cargo-dist`. When you're ready to cut a new release, test the current state of the project with `cargo dist build` and `cargo dist plan`. If that went well, create a new git tag that matches the current project version in `Cargo.toml` with `git tag vX.X.X`. Finally, run `git push --tags` to kick off the release process. GitHub will handle it from here -- check your project's GitHub Releases page in about 5 to 10 minutes.
+```
