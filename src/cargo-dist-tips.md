@@ -2,7 +2,7 @@
 
 **Sam's notes on using [cargo-dist](https://opensource.axo.dev/cargo-dist/)**
 
-Some notes on cargo-dist v0.4.1; following [this documentation](https://opensource.axo.dev/cargo-dist/book/way-too-quickstart.html)
+Some notes on cargo-dist v0.4.2; following [this documentation](https://opensource.axo.dev/cargo-dist/book/way-too-quickstart.html)
 
 ## Preparation
 
