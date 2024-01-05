@@ -51,7 +51,13 @@ Basically, now for every PR to your project, GitHub will run part of this `cargo
 
 ## Upgrading cargo-dist itself
 
-If and when you upgrade cargo-dist (using `carog install cargo-dist`), you'll need to take some steps within the project that you use cargo-dist to distribute. 
+If and when you upgrade cargo-dist (using `cargo install cargo-dist`), you'll need to take some steps within the project that you use cargo-dist to distribute. 
+
+### New way of doing this (as of cargo-dist v0.7.0)
+
+Just run `cargo dist init`, as per [these cargo-dist docs](https://opensource.axo.dev/cargo-dist/book/updating.html).
+
+### My old notes on how to do this
 
 1. In your project's `Cargo.toml` file, edit the `cargo-dist-version` variable to match the version of cargo-dist you now have installed on your system.
 2. Re-run `cargo dist init`. (You may also need to run `cargo dist generate` afterward for changes to take affect.)
