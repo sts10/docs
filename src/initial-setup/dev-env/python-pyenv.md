@@ -73,4 +73,7 @@ Specifically, if you've been using pip to install packages solely for use on the
 
 ## 2023 updates
 
-[Rye](https://github.com/mitsuhiko/rye) looks cool? There's also ["Python launcher"](https://github.com/brettcannon/python-launcher)?
+* [Rye](https://github.com/mitsuhiko/rye) looks like a possible all-in-one solution for future machines where I need access to Python.
+* For packages: [uv](https://github.com/astral-sh/uv)? For formatting: [ruff](https://github.com/astral-sh/ruff).
+
+* There's also ["Python launcher"](https://github.com/brettcannon/python-launcher)?
