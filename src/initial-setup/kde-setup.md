@@ -30,3 +30,5 @@ If your machine isn't recognizing an external monitor, another possible issue ma
 > From the apt upgrade output, it probably said something about the Nvidia DKMS module not working with the 6.0.2 kernel. From there you'd have to know to try other Nvidia driver versions. Also we just released some updates that should make this not happen as much. It's definitely not ideal for this to happen.
 
 More broadly, I think you need to use NVIDIA drivers (rather the FOSS ones) to use an external monitor with my Oryx Pro. I think.
+
+**June 2025 update**: System76 tech suggests `sudo apt install nvidia-driver-550` or `sudo apt install nvidia-driver-550=550.144.03-0ubuntu0.22.04.1` to solve a similar issue to the one described on this page (which arose while running Pop_OS 22.04 LTS).
