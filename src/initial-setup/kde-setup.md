@@ -25,7 +25,9 @@ If the external monitor appears in the layout, it may just be "disabled". If tha
 
 #### Are your drivers up-to-date?
 
-If your machine isn't recognizing an external monitor, another possible issue may be that you need to upgrade your NVIDIA to match your current Linux kernel. For example, at one point I needed to upgrade to 515 by running `sudo apt install nvidia-driver-515`. How could I have known I needed to do this? [A helpful Mattermost users writes](https://chat.pop-os.org/pop-os/pl/c8c6qrkfztdbujy5js8wc6gg9o):
+If your machine isn't recognizing an external monitor, another possible issue may be that you need to upgrade your NVIDIA to match your current Linux kernel. For example, at one point I needed to upgrade to 515 by running `sudo apt install nvidia-driver-515`. Probably should run `flatpak update` right after. 
+
+How could I have known I needed to do this? [A helpful Mattermost users writes](https://chat.pop-os.org/pop-os/pl/c8c6qrkfztdbujy5js8wc6gg9o):
 
 > From the apt upgrade output, it probably said something about the Nvidia DKMS module not working with the 6.0.2 kernel. From there you'd have to know to try other Nvidia driver versions. Also we just released some updates that should make this not happen as much. It's definitely not ideal for this to happen.
 
